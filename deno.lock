@@ -1,0 +1,69 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:kanji.js@1.6.2": "1.6.2",
+    "npm:kuromoji@0.1.2": "0.1.2",
+    "npm:kyujitai@1.3.0": "1.3.0",
+    "npm:tshet-uinh@0.15.4": "0.15.4",
+    "npm:wanakana@5.3.1": "5.3.1"
+  },
+  "npm": {
+    "async@2.6.4": {
+      "integrity": "sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==",
+      "dependencies": [
+        "lodash"
+      ]
+    },
+    "doublearray@0.0.2": {
+      "integrity": "sha512-aw55FtZzT6AmiamEj2kvmR6BuFqvYgKZUkfQ7teqVRNqD5UE0rw8IeW/3gieHNKQ5sPuDKlljWEn4bzv5+1bHw=="
+    },
+    "fuzzyset.js@1.0.7": {
+      "integrity": "sha512-SmfOVSiPjbyC17m1i86wFq+jmkGioqlY/amT6RZzq4hPTGJFWFF2voUe88zrq/zDbehFnSJFtu6kqTUCw1caKQ=="
+    },
+    "ivs@2.0.2": {
+      "integrity": "sha512-DxLpE5JtBJ2DEQl9nS8MRsxlXoxanbCCaW/2vdO5AILhxKMoo4OMz/QPRsk1Gf3PeFZYy6Dvm/Ta1WS3t6CXLg=="
+    },
+    "kanji.js@1.6.2": {
+      "integrity": "sha512-ybuhINvzoPEv3om33jspfD7rV9bylgAsI0QBaKwa2ajp/+AKsd/9iE+UoNBgcBBn1e2exkLSsOlauCCdhlwkPQ==",
+      "dependencies": [
+        "fuzzyset.js",
+        "wanakana"
+      ]
+    },
+    "kuromoji@0.1.2": {
+      "integrity": "sha512-V0dUf+C2LpcPEXhoHLMAop/bOht16Dyr+mDiIE39yX3vqau7p80De/koFqpiTcL1zzdZlc3xuHZ8u5gjYRfFaQ==",
+      "dependencies": [
+        "async",
+        "doublearray",
+        "zlibjs"
+      ]
+    },
+    "kyujitai@1.3.0": {
+      "integrity": "sha512-BSd3fBpTWwkIVGQRDoEiKFdBLSW3vrAAHQlaK3v26+ecQ8AY/G7JLkpCP3kFZ3en8jRPyd1JykyIxvPL76OggA==",
+      "dependencies": [
+        "ivs"
+      ]
+    },
+    "lodash@4.18.1": {
+      "integrity": "sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q=="
+    },
+    "tshet-uinh@0.15.4": {
+      "integrity": "sha512-Bz93oMaSAkMp7pA6kKeBG3s860r9wbUPG1K/brkSkL01GQUK8okKVZcm0ZOVXCdBCWJXz00CXq+jm2IcYlfdkA=="
+    },
+    "wanakana@5.3.1": {
+      "integrity": "sha512-OSDqupzTlzl2LGyqTdhcXcl6ezMiFhcUwLBP8YKaBIbMYW1wAwDvupw2T9G9oVaKT9RmaSpyTXjxddFPUcFFIw=="
+    },
+    "zlibjs@0.3.1": {
+      "integrity": "sha512-+J9RrgTKOmlxFSDHo0pI1xM6BLVUv+o0ZT9ANtCxGkjIVCCUdx9alUF8Gm+dGLKbkkkidWIHFDZHDMpfITt4+w=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:kanji.js@1.6.2",
+      "npm:kuromoji@0.1.2",
+      "npm:kyujitai@1.3.0",
+      "npm:tshet-uinh@0.15.4",
+      "npm:wanakana@5.3.1"
+    ]
+  }
+}
